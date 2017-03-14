@@ -26,8 +26,21 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	They allow you to easily see what commits may be unreachable.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The commits from both branches are combined into a single sequence that is
+	reachable from the new tiip.  Since commits from both branches are parents of 
+	the new merge commit, we indicate this in the diagram by drawing arrows to
+	both parents.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Tedious tasks are error-prone.  Having git automate where it can saves work.  The 
+	risk is that incompatibilities can be missed and bugs introduced.  Thorough testing
+	of merged code is required.  On balance, git can probably be trusted to do a first
+	pass without greater risk than doing it manually.  But git's work needs to be 
+	thoroughly reviewed.
