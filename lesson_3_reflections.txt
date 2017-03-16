@@ -48,4 +48,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When colaborating, using a separate branch on GitHub makes sense, especially if you
+    control who is actually allowed to commit changes to the master codebase.  Branches
+    also help to keep the stable code stable.
+
+    Use of branches is optional if only one person is maintaining the code.  Not using branches simplifies the workflow, but can complicate life if you want to only 
+    release part of the changes that you have made.
