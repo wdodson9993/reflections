@@ -35,7 +35,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I have created check-out/check-in workflows in the past using other types of repositories without version control.  Of cource, programs to compare files and 
+    highlight changes are basic programming 101 type exercises.  Even versioning 
+    is something that can be accomplished manually.  Having multiple people working on
+    a project requires communication and discipline.  These things are manageable
+    with small-ish teams.  What Git and GitHub provide is automated workflows and 
+    leveraging the metadata and history in ways that are more difficult in a manual
+    approach.  Clearly, Git and Github would be advantageous for larger projects
+    involving hundreds or thousands of contributors, and where coordination through
+    communication can be difficult.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
